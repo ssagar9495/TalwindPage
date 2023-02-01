@@ -1,0 +1,88 @@
+.headerContainer {
+  display: flex;
+  justify-content: center;
+  padding: 10px 10px 10px 10px;
+  width: 100%;
+}
+.webLogoStyle {
+  width: 35%;
+}
+
+.listContainer {
+  // background-color: red;
+  padding: 10px 20% 10px 20%;
+}
+
+.itemContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+  background-color: white;
+  border: 1px solid lightgrey;
+  box-shadow: 1px 0px 5px lightgrey;
+  padding: 10px 10px 10px 10px;
+  border-radius: 10px;
+}
+.partnetProfileImage {
+  // height: 13%;
+  width: 13%;
+  border-radius: 50%;
+}
+
+.profileAvatar {
+  background-color: lightgray;
+  width: 12%;
+  border-radius: 50%;
+  padding: 3% 0.1% 3% 0.1%;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.partnerName {
+  padding-left: 10px;
+  font-size: 14px;
+  font-weight: 600;
+}
+.arrowStyle {
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 1000px) {
+  .profileAvatar {
+    font-size: 37px;
+    width: 13%;
+  }
+  .partnerName {
+    font-size: 37px;
+  }
+}
+@media only screen and (min-width: 1300px) {
+  .profileAvatar {
+    width: 12%;
+  }
+}
+@media only screen and (min-width: 600px) and (max-width: 800px) {
+  .partnerName {
+    font-size: 20px;
+  }
+  .profileAvatar {
+    padding: 4% 0.1% 4% 0.1%;
+    font-size: 20px;
+    width: 13%;
+  }
+}
+@media only screen and (min-width: 800px) and (max-width: 1000px) {
+  .partnerName {
+    font-size: 20px;
+  }
+  .profileAvatar {
+    padding: 4% 0.1% 4% 0.1%;
+    font-size: 20px;
+    width: 13%;
+  }
+}
